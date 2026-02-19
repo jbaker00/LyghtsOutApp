@@ -1,4 +1,14 @@
 .DS_Store
 *.xcuserstate
-xcuserdata/
+**/xcuserdata/
 DerivedData/
+build/
+*.xcworkspacedata
+*.pbxuser
+*.perspectivev3
+*.moved-aside
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+.swiftpm
+.build
+Package.resolved
