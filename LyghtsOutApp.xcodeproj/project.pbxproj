@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0000011A2B3C4D5E6F0001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000021A2B3C4D5E6F0002 /* Assets.xcassets */; };
 		8F7A3B461A2B3C4D5E6F7A96 /* LyghtsOutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A3B421A2B3C4D5E6F7A92 /* LyghtsOutApp.swift */; };
 		8F7A3B471A2B3C4D5E6F7A97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A3B431A2B3C4D5E6F7A93 /* ContentView.swift */; };
 		8F7A3B481A2B3C4D5E6F7A98 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A3B441A2B3C4D5E6F7A94 /* MailView.swift */; };
@@ -16,6 +17,7 @@
 /* Begin PBXFileReference section */
 		6E4A2D712F46822900813E49 /* LyghtsOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyghtsOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7A3B411A2B3C4D5E6F7A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000021A2B3C4D5E6F0002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7A3B421A2B3C4D5E6F7A92 /* LyghtsOutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyghtsOutApp.swift; sourceTree = "<group>"; };
 		8F7A3B431A2B3C4D5E6F7A93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F7A3B441A2B3C4D5E6F7A94 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
@@ -26,6 +28,7 @@
 		8F7A3B3D1A2B3C4D5E6F7A8D /*  */ = {
 			isa = PBXGroup;
 			children = (
+				AA0000021A2B3C4D5E6F0002 /* Assets.xcassets */,
 				8F7A3B451A2B3C4D5E6F7A95 /* SignupView.swift */,
 				8F7A3B441A2B3C4D5E6F7A94 /* MailView.swift */,
 				8F7A3B431A2B3C4D5E6F7A93 /* ContentView.swift */,
@@ -50,6 +53,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F7A3B4B1A2B3C4D5E6F7A9B /* Build configuration list for PBXNativeTarget "LyghtsOutApp" */;
 			buildPhases = (
+				AA0000031A2B3C4D5E6F0003 /* Resources */,
 				8F7A3B4A1A2B3C4D5E6F7A9A /* Sources */,
 			);
 			buildRules = (
@@ -86,6 +90,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000031A2B3C4D5E6F0003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000011A2B3C4D5E6F0001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F7A3B4A1A2B3C4D5E6F7A9A /* Sources */ = {
